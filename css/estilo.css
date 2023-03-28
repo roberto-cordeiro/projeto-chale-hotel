@@ -1,0 +1,179 @@
+/* Zerando margin e padding */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* Inicio formatação body, container, topo, area-logo, cabecalho-menu,  H's e p */
+body {
+    font-family: 'Trebuchet MS',Helvetica , sans-serif;
+    background: #fff url(../imagens/bg.png);
+    margin: 15px;
+}
+#container {
+    background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
+    max-width: 1180px;
+    min-width: 740px;
+    margin: 0 auto;
+}
+#topo {
+    position: relative;
+    background: #dbcb87;      
+    height: 15.4em;
+    min-height: 250px;
+}
+#area-logo {
+    position: absolute;
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#cabecalho-menu {
+    position: absolute;
+    background: #FFFFFF;   
+    width: 450px;
+    height: 250px;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+/* Fim formatação body, topo, cabecalho, H's e p */
+/********************************************************/
+/* Inicio formatação Logo Esquerda */
+.logo a {
+    text-decoration: none;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(../imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+    text-indent: -9000px;
+}
+/* Fim formatação Logo Esquerda */
+/********************************************************/
+/* Inicio formatação Menu Topo */
+#conteudo-menu { 
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+#menu-locais {
+    font-size: 0.7em;
+    padding: 10px 0;
+    border-top: 1px solid #b5ab56;
+    border-bottom: 1px solid #b5ab56;
+    color: #8b8448;
+
+}
+#menu-locais .locais {
+   line-height: 2.1em;  
+}
+a {
+    text-decoration: none;
+}
+a.reserva {
+    color: #fff5b0;
+    padding: 5px 10px;
+    background: #a29750;
+    text-transform: uppercase;
+    float: right;
+}
+#lateral { /* Formatação menu lateral de navegação */
+    margin-top: 15px;
+}
+ul#menu-lateral { /* Formatação do menu lista */
+    float: left;    
+}
+
+ul#menu-lateral a {
+    color: #6e672c;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    line-height: 30px;
+}
+ul#menu-lateral a:hover {
+    background:#fdf6be;
+
+}
+.convite { /* Formatação imagem topo */
+    float: right;
+    width: 226px;
+    height: 164px;
+   
+}
+/* Fim formatação Menu Topo */
+/********************************************************/
+/* Inicio formatação Conteúdo a Esquerda */
+.noticias-conteudo {
+    width: 90%;
+    margin: 0 auto;
+
+}
+.noticias-conteudo h2 {
+    font-size: 1.1em;
+    padding: 5px 0;
+    color: #8b8448;
+}
+#noticias {
+    background: url(../imagens/bg-area-principal.png) repeat-x left top;
+    width: 50%;
+    float: left;
+    padding: 15px 0;
+}
+#noticias p {
+    font-size: 0.9em;
+    padding-bottom: 10px;
+}
+/* Fim formatação Conteúdo a Esquerda */
+/********************************************************/
+/* Inicio formatação Conteúdo a Direita */
+#menu-noticias {
+    background: url(../imagens/bg-area-lateral.png) repeat-x left top;
+    width: 50%;
+    float: right;
+    padding: 20px 0;
+}
+#menu-noticias li {
+    display: block;
+    height: 97px;
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+}
+#menu-noticias ul li a img {
+    float: left;
+    margin-right: 8px;
+}
+#menu-noticias ul li a h3 {
+    color: #6e672c;
+    font-size: 1em;
+    padding: 5px 0;
+    background: url(../imagens/ornamento.png) right center no-repeat;
+}
+#menu-noticias ul li a p {
+    color: black;
+    font-size: 0.8em;
+}
+#menu-noticias ul li:hover {
+    background-color:#ece9dc;
+    cursor: pointer;
+}
+/* Fim formatação Conteúdo a Direita */
+/********************************************************/
+/* Inicio formatação Rodapé */
+#rodape {
+    text-align: center;
+    clear: both;
+    background:#fff url(../imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+    max-width: 1180px;
+    min-width: 740px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
